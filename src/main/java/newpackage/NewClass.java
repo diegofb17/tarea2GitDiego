@@ -10,5 +10,7 @@ package newpackage;
  * @author Diego
  */
 public class NewClass {
-    
+    public static void main(String[] args) {
+        jugador diego=new jugador("Diego", 1, 2);
+    }
 }

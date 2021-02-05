@@ -19,7 +19,28 @@ public class jugador {
         this.votos = votos;
         this.id = id;
     }
-    
-    
-    
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getVotos() {
+        return votos;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setVotos(int votos) {
+        this.votos = votos;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
